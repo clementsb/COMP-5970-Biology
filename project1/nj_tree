@@ -1,0 +1,11 @@
+digraph {
+	Inner4
+	Inner3
+	seq1
+	seq2
+	Inner3 -> seq1 [label=0.06]
+	Inner3 -> seq2 [label=0.05]
+	seq3
+	Inner4 -> Inner3 [label=0.05]
+	Inner4 -> seq3 [label=0.09]
+}

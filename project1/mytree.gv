@@ -1,0 +1,23 @@
+digraph {
+	Inner5
+	Inner3
+	Inner2
+	seq6
+	seq5
+	Inner2 -> seq6 [label=0.066]
+	Inner2 -> seq5 [label=0.066]
+	seq4
+	Inner3 -> Inner2 [label=0.023]
+	Inner3 -> seq4 [label=0.089]
+	Inner4
+	seq3
+	Inner1
+	seq2
+	seq1
+	Inner1 -> seq2 [label=0.053]
+	Inner1 -> seq1 [label=0.053]
+	Inner4 -> seq3 [label=0.098]
+	Inner4 -> Inner1 [label=0.045]
+	Inner5 -> Inner3 [label=0.055]
+	Inner5 -> Inner4 [label=0.045]
+}
